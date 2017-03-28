@@ -1,0 +1,17 @@
+{
+  "name": "multi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "code": "^4.0.0",
+    "lab": "^13.0.1"
+  },
+  "scripts": {
+    "exec": "nodemon index.js",
+    "test": "lab multi.spec.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
