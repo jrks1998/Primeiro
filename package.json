@@ -3,17 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "eu": "nodemon index.js",
+    "exec": "nodemon index.js",
     "test": "lab multi.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrks1998/Primeiro.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "nodemon": "^1.11.0"
+  "bugs": {
+    "url": "https://github.com/jrks1998/Primeiro/issues"
   },
-  "devDependencies": {
-    "code": "^4.0.0",
-    "lab": "^13.0.1"
-  }
+  "homepage": "https://github.com/jrks1998/Primeiro#readme"
 }
