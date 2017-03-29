@@ -1,5 +1,6 @@
 function multi(x, y) {
-  h=0
+  if (!x || !y)
+    return { message: 'parametros faltando'};
   return x + y;
 }
 
