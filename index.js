@@ -1,3 +1,3 @@
 const { multi } = require('./multi');
 
-console.log(multi(1, 3));
+console.log(multi(100000, 64654654));
