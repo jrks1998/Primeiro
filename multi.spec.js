@@ -36,6 +36,6 @@ lab.test('retorno da soma de 1 e nada deve ser 1', (done) => {
 
 lab.test('retorno da soma de nada e nada deve ser nada', (done) => {
 
-    Code.expect(multi()).to.equal();
+    Code.expect(multi(0, 0)).to.equal(0);
     done();
 });
