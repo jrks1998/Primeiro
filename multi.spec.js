@@ -4,16 +4,17 @@ const lab = exports.lab = Lab.script();
 
 const { multi } = require('./multi');
 
-lab.test('soma numeros inteiros', (done) => {
+lab.test('numeros inteiros', (done) => {
 
     Code.expect(multi(1, 3)).to.equal(4);
-    Code.expect(multi(18, 51)).to.equal(69);
+    Code.expect(multi(0, 0)).to.equal(0);
     done();
 });
 
-lab.test('somando numeros negativos', (done) => {
+lab.test('numeros negativos', (done) => {
 
     Code.expect(multi(-8, -9)).to.equal(-17);
+    Code.expect(multi(-0, 60)).to.equal(60)
     done();
 });
 
