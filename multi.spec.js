@@ -20,6 +20,12 @@ lab.test('numeros negativos', (done) => {
 
 lab.test('expressão mal formada', (done) => {
     const r = multi();
-    Code.expect(r.message).to.equal("parametros faltando")
+    Code.expect(r.message).to.equal("parâmetros faltando")
+    done();
+});
+
+lab.test('expressão mal formada', (done) => {
+    const r = multi('a', 'b');
+    Code.expect(r.message).to.equal("parâmetros inválidos")
     done();
 });
